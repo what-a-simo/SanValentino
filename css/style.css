@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header nav ul li {
+    margin: 4%;
+    align-items: center;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+
+.homeh2 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 3%;
+}
+
+.homeh3 {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 3%;
+}
+
+.homeimg {
+    text-align: center;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.text {
+    border: 1px black solid;
+    margin: 4%;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+.gridbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+}
+
+.grid-item {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.amo {
+    border: 1px solid black;
+    background-color: pink;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    cursor: pointer;
+    text-align: center;
+}
+
+.b {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+button::hover {
+    border-radius: 10px;
+    padding: 10px 20px; 
+    border: 1px solid black;
+}
+
+.amotext {
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25px;
+    text-align: center;
+}
+
