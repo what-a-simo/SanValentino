@@ -113,6 +113,7 @@ footer p {
 
 .grid-item {
     width: 100%;    
+    aspect-ratio: 1;
     overflow: hidden;
     border: 2px solid black;
     border-radius: 8px;
